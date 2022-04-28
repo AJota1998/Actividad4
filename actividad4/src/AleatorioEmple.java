@@ -8,6 +8,8 @@ public class AleatorioEmple {
 		crear();
 		leer();
 	}
+	
+	
 
 	public static void leer() throws IOException {
 		File fichero = new File("AleatorioEmple.dat");
@@ -19,6 +21,7 @@ public class AleatorioEmple {
 		if (file.length() > 0) {
 			pos = 0;
 			System.out.println(" ------------------------------------------");
+			System.out.println(" MODIFICACIÓN1 ");
 			System.out.println(" - - - VISUALIZO POR CONSOLA - - - - ");
 			for (;;) {
 				file.seek(pos);
