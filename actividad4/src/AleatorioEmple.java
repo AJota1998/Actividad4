@@ -23,6 +23,7 @@ public class AleatorioEmple {
 			System.out.println(" ------------------------------------------");
 			System.out.println(" MODIFICACIÓN1 ");
 			System.out.println("MODIFICACION2");
+			System.out.println("MODIFICACION3");
 			System.out.println(" - - - VISUALIZO POR CONSOLA - - - - ");
 			for (;;) {
 				file.seek(pos);
